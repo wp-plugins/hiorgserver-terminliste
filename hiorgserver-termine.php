@@ -88,11 +88,3 @@ function hiorg_termine_control() {
     </p>
     <?php
 }
-
-function get_offset_to_gmt_in_seconds() {
-
-    $current_timezone_offset = get_option('gmt_offset');
-    $offset = $current_timezone_offset * 3600;
-
-    return $offset;
-}
